@@ -1,0 +1,314 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 851px){
+	
+	#hea-00 {
+		width: 100%;
+		height: auto;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 1000000;
+	}
+	
+	#div-00-hea-00 {
+		width: calc(100% - 10px);
+		height: auto;
+		max-height: 70px;
+		min-height: 70px;
+		position: relative;
+		margin: 5px;
+		background: radial-gradient(ellipse at 50% 70%, rgb(20,20,20) 0%, rgb(10,10,10) 100%);
+		border-radius: 20px;
+		box-shadow: 5px 5px 70px -30px black;
+		padding: 0 10px 0 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-flow: row-reverse wrap;
+		transition: 0.5s;
+	}
+	
+	#img-00-div-00-hea-00 {
+		height: 47.5px;
+		width: 47.5px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: 15px;
+	}
+	
+	#h1-00-div-00-hea-00 {
+		width: auto;
+		height: 45px;
+		font-family: Timeless;
+		font-size: 20px;
+		line-height: 22.5px;
+		color: white;
+		font-weight: 400;
+		position: absolute;
+		margin: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: 70px;
+		font-variant: small-caps;
+	}
+	
+	#btn-00-div-00-hea-00 {
+		display: none;
+	}
+	
+	
+	
+	#div-00-div-00-hea-00, #div-01-div-00-hea-00, #div-02-div-00-hea-00, #div-03-div-00-hea-00, #div-04-div-00-hea-00, #div-05-div-00-hea-00 {
+		margin: 15px 5px 5px 5px;
+		position: relative;
+		width: 80px;
+		height: 50px;
+		flex-shrink: 0;
+		display: flex;
+		flex-flow: column nowrap;
+		cursor: pointer;
+	}
+
+	
+	#svg-00-div-00-div-00-hea-00, #svg-00-div-01-div-00-hea-00, #svg-00-div-02-div-00-hea-00, #svg-00-div-03-div-00-hea-00, #svg-00-div-04-div-00-hea-00, #svg-00-div-05-div-00-hea-00 {
+		position: relative;
+		margin: 0;
+		left: 50%;
+		transform: translate(-50%);
+		height: 25px;
+		width: 25px;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	
+	
+	#div-00-div-00-hea-00:hover #pth-00-svg-00-div-00-div-00-hea-00, #div-00-div-00-hea-00:hover #pth-01-svg-00-div-00-div-00-hea-00, #div-00-div-00-hea-00:hover #pth-02-svg-00-div-00-div-00-hea-00, #div-00-div-00-hea-00:hover #pth-03-svg-00-div-00-div-00-hea-00 {
+		stroke: rgb(103, 0, 221);
+	}
+	
+	#div-00-div-00-hea-00:hover #pth-04-svg-00-div-00-div-00-hea-00 {
+		fill: rgb(103, 0, 221);
+	}
+	
+	#lbl-00-div-00-div-00-hea-00, #lbl-00-div-01-div-00-hea-00, #lbl-00-div-02-div-00-hea-00, #lbl-00-div-03-div-00-hea-00, #lbl-00-div-04-div-00-hea-00, #lbl-00-div-05-div-00-hea-00 {
+		width: 100%;
+		height: 15px;
+		font-family: Timeless;
+		font-size: 15px;
+		line-height: 15px;
+		color: white;
+		font-weight: 400;
+		position: relative;
+		margin: 5px 0 0 0;
+		font-variant: small-caps;
+		white-space: nowrap;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		text-align: center;
+		pointer-events: none;
+	}
+	
+	#div-00-div-00-hea-00:hover #lbl-00-div-00-div-00-hea-00, #div-01-div-00-hea-00:hover #lbl-00-div-01-div-00-hea-00, #div-02-div-00-hea-00:hover #lbl-00-div-02-div-00-hea-00, #div-03-div-00-hea-00:hover #lbl-00-div-03-div-00-hea-00, #div-04-div-00-hea-00:hover #lbl-00-div-04-div-00-hea-00, #div-05-div-00-hea-00:hover #lbl-00-div-05-div-00-hea-00 {
+		color: rgb(103, 0, 221);
+	}
+	
+	
+	
+	#pth-00-svg-00-div-00-div-00-hea-00, #pth-01-svg-00-div-00-div-00-hea-00, #pth-02-svg-00-div-00-div-00-hea-00, #pth-03-svg-00-div-00-div-00-hea-00 {
+		stroke: white;
+		stroke-width: 0.4;
+		fill: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		stroke-linejoin: round;
+	}
+	
+	#pth-04-svg-00-div-00-div-00-hea-00 {
+		fill: white;
+		stroke: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	
+	#pth-00-svg-00-div-00-div-00-hea-00 {
+		stroke-width: 0.6;
+	}
+	
+	
+	
+	
+	#pth-00-svg-00-div-01-div-00-hea-00, #pth-01-svg-00-div-01-div-00-hea-00 {
+		stroke: white;
+		stroke-width: 0.7;
+		fill: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		stroke-linejoin: round;
+	}
+	
+	#pth-01-svg-00-div-01-div-00-hea-00 {
+		stroke-width: 0.4px;
+	}
+
+	#div-01-div-00-hea-00:hover #pth-00-svg-00-div-01-div-00-hea-00, #div-01-div-00-hea-00:hover #pth-01-svg-00-div-01-div-00-hea-00 {
+		stroke: rgb(103, 0, 221);
+	}
+	
+	
+	
+	
+	
+	#txt-00-msk-00-svg-00-div-00-div-02-div-00-hea-00, #txt-00-msk-00-svg-00-div-00-div-02-div-00-hea-00 {
+		fill: black;
+		stroke: none;
+		dominant-baseline: central;
+		text-anchor: middle;
+		font-size: 5px;
+		font-weight: 600;
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	#pth-00-svg-00-div-02-div-00-hea-00 {
+		fill: white;
+		stroke: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	
+	#div-02-div-00-hea-00:hover #pth-00-svg-00-div-02-div-00-hea-00 {
+		fill: rgb(103, 0, 221);
+	}
+	
+	
+	
+	
+	#pth-00-svg-00-div-03-div-00-hea-00, #pth-01-svg-00-div-03-div-00-hea-00 {
+		stroke: white;
+		stroke-width: 0.4;
+		fill: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		stroke-linejoin: round;
+	}
+	
+	#div-03-div-00-hea-00:hover #pth-00-svg-00-div-03-div-00-hea-00, #div-03-div-00-hea-00:hover #pth-01-svg-00-div-03-div-00-hea-00 {
+		stroke: rgb(103, 0, 221);
+	}
+	
+	#pth-02-svg-00-div-03-div-00-hea-00 {
+		stroke: none;
+		fill: white;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		stroke-linejoin: round;
+	}
+
+	#div-03-div-00-hea-00:hover #pth-02-svg-00-div-03-div-00-hea-00 {
+		fill: rgb(103, 0, 221);
+	}
+	
+	
+	
+	
+	#pth-00-svg-00-div-04-div-00-hea-00 {
+		stroke: none;
+		fill: white;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		stroke-linejoin: round;
+	}
+	
+	#rct-00-msk-00-svg-00-div-04-div-00-hea-00 {
+		stroke: none;
+		fill: black;
+	}
+	
+	#ccl-00-msk-00-svg-00-div-04-div-00-hea-00 {
+		stroke: black;
+		stroke-width: 0.8;
+		fill: none;
+	}
+
+	#div-04-div-00-hea-00:hover #pth-00-svg-00-div-04-div-00-hea-00 {
+		fill: rgb(103, 0, 221);
+	}
+	
+	
+	
+	
+	#txt-00-svg-00-div-05-div-00-hea-00 {
+		fill: white;
+		stroke: none;
+		dominant-baseline: central;
+		text-anchor: middle;
+		font-size: 5px;
+		font-weight: 600;
+		font-family: 'Playfair Display', sans-serif;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	
+	#pth-00-svg-00-div-05-div-00-hea-00 {
+		stroke: white;
+		stoke-width: 1px;
+		fill: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		stroke-linejoin: round;
+	}
+
+	#ccl-00-svg-00-div-05-div-00-hea-00 {
+		stroke: white;
+		stroke-width: 0.5px;
+		fill: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	#div-05-div-00-hea-00:hover #pth-00-svg-00-div-05-div-00-hea-00, #div-05-div-00-hea-00:hover #ccl-00-svg-00-div-05-div-00-hea-00 {
+		stroke: rgb(103, 0, 221);
+	}
+	
+	#div-05-div-00-hea-00:hover #txt-00-svg-00-div-05-div-00-hea-00 {
+		fill: rgb(103, 0, 221);
+	}
+	
+}

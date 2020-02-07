@@ -1,0 +1,26 @@
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+#set default page
+DirectoryIndex admin/login.php
+
+RewriteCond %{HTTP_HOST} ^haganrealtyproperties.com/property(.*)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^admin/sites/set-site-details/(.*)$ ./admin/sites/set-new-site.php?parameter=$1
+
+RewriteRule ^admin/sites/site-editor/(.*)$ ./admin/sites/site-editor.php?parameter=$1
+
+RewriteRule ^admin/settings/details-and-profile/change-password ./admin/settings/details-and-profile.php?change-password=true
+
+#RewriteRule ^admin/settings/agent ./admin/settings/agent.php
+
+RewriteRule ^property/(.*)$ ./property.php?parameter=$1
+
+#RewriteRule ^(.*)$ .property.php?parameter=$1
+
+#remove php file extension-e.g. http://example.com/file.php will become http://example.com/file
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

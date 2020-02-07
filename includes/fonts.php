@@ -1,0 +1,1 @@
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:900|family=Lato|Playfair+Display:400,700|Poppins:700" rel="stylesheet">

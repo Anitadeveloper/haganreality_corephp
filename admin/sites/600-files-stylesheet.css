@@ -1,0 +1,1403 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (min-width:601px) and (max-width:1000px){
+	a {
+		text-decoration: none;
+	}
+
+	#files #div-00 {
+		background-color: rgb(245,245,245);
+	}
+
+	#files #asd-00-div-00 {
+		width: 100%;
+		height: 60px;
+		position: relative;
+		background-color: rgb(255,255,255);
+		display: flex;
+		margin: 60px 0 0 0;
+		box-shadow: 0 0 30px -10px rgba(0,0,0,0.1);
+		flex-flow: row nowrap;
+		overflow: hidden;
+	}
+
+	#files .div-00-asd-00-div-00 {
+		width: 100%;
+		height: 120px;
+		position: relative;
+		padding: 0 0 60px 0;
+		display: flex;
+		flex-flow: row nowrap;
+		overflow-x: scroll;
+	}
+
+	#files .a-00-div-00-asd-00-div-00 {
+		width: 225px;
+		height: 60px;
+		box-sizing: border-box;
+		position: relative;
+		padding: 22.5px 25px 22.5px 25px;
+		font-size: 14px;
+		font-family: Lato;
+		font-weight: 600;
+		line-height: 14px;
+		color: rgb(150,150,160);
+		cursor: pointer;
+		display: block;
+		border-right: 1px solid rgb(245,245,245);
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		flex-shrink: 0;
+	}
+
+	#files .a-00-div-00-asd-00-div-00:hover {
+		color: rgb(75,75,80);
+		background-color: rgb(250,250,250);
+	}
+
+	#files .lbl-00-a-00-div-00-asd-00-div-00 {
+		height: 28px;
+		box-sizing: border-box;
+		width: auto;
+		right: 18px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		border-radius: 14px;
+		font-size: 14px;
+		line-height: 14px;
+		font-family: Lato;
+		font-weight: 600;
+		padding: 7px 8px 7px 8px;
+		background-color: rgb(220,220,220);
+		color: rgb(50,50,50);
+	}
+
+	#files .a-00-div-00-asd-00-div-00 svg {
+		width: 15px;
+		height: 15px;
+		position: absolute;
+		top: 23px;
+		right: 18px;
+	}
+
+	#files .a-00-div-00-asd-00-div-00 svg path {
+		stroke: rgb(200,200,200);
+		stroke-width: 2px;
+		fill: none;
+	}
+
+
+
+
+
+	#files #div-00-div-00 {
+		position: relative;
+		width: calc(100vw - 40px);
+		margin: 0 20px;
+		height: auto;
+		min-height: calc(100vh - 120px);
+	}
+
+
+	#files #asd-00-div-00-div-00 {
+		width: auto;
+		height: 40px;
+		position: absolute;
+		top: 20px;
+		right: 40px;
+		z-index: 10000;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	#files #ipt-00-asd-00-div-00-div-00 {
+		width: 400px;
+		height: 40px;
+		box-sizing: border-box;
+		border: none;
+		border-radius: 0;
+		border-bottom: 2px solid rgb(210,210,210);
+		padding: 11px 40px 11px 10px;
+		font-size: 16px;
+		line-height: 16px;
+		font-family: Lato;
+		font-weight: 500;
+		color: rgb(40,40,40);
+		position: relative;
+		margin: 0 -40px 0 0;
+		background: none;
+		outline: none;
+		display: block;
+	}
+
+
+	#files #btn-00-asd-00-div-00-div-00 {
+		width: 40px;
+		height: 40px;
+		position: relative;
+		margin: 0;
+		background: none;
+		border: none;
+		padding: 0;
+		border-radius: 20px;
+		cursor: pointer;
+		outline: none;
+	}
+
+	#files #btn-00-asd-00-div-00-div-00 svg {
+		width: 20px;
+		height: 20px;
+		margin: 10px;
+		position: relative;
+	}
+
+	#files #btn-00-asd-00-div-00-div-00 svg path {
+		stroke: rgb(110,110,110);
+		stroke-width: 1px;
+		fill: none;
+	}
+
+	#files #btn-00-asd-00-div-00-div-00:hover path {
+		stroke: rgb(0,0,0);
+	}
+
+	#files #div-00-div-00-div-00 {
+		width: 300px;
+		height: auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #lbl-00-div-00-div-00-div-00 {
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		position: relative;
+		font-size: 16px;
+		font-family: Lato;
+		line-height: 16px;
+		font-weight: 600px;
+		color: rgb(20,20,20);
+		text-align: center;
+		border: none;
+		outline: none;
+		margin: 50px 0 0 0
+	}
+
+	#files #a-00-div-00-div-00-div-00 {
+		width: 200px;
+		height: 42px;
+		box-sizing: border-box;
+		position: relative;
+		margin: 30px 50px 0 50px;
+		font-size: 14px;
+		font-family: Lato;
+		padding: 14px;
+		line-height: 14px;
+		color: rgb(245,245,245);
+		text-align: center;
+		background-color: rgb(80,0,255);
+		border: none;
+		outline: none;
+		cursor: pointer;
+		border-radius: 4px;
+		display: block;
+
+	}
+
+	#files #a-00-div-00-div-00-div-00:hover {
+		background-color: rgb(50,0,180);	
+	}
+
+
+
+
+	#files #div-01-div-00-div-00 {
+		width: 100%;
+		padding: 0 0 10px 0;
+		height: auto;
+		position: relative;
+		margin: 60px 0 auto 0;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	#files #div-01-div-01-div-00-div-00 {
+		width: auto;
+		max-width: 300px;
+		top: 20px;
+		left: 30px;
+		height: auto;
+		position: absolute;
+		overflow: hidden;
+		flex-shrink: 0;
+		cursor: pointer;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	#files #svg-00-div-01-div-01-div-00-div-00 {
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+
+	#files #svg-00-div-01-div-01-div-00-div-00 path {
+		stroke: none;
+		fill: rgb(150,150,150);
+	}
+
+	#files #h3-00-div-01-div-01-div-00-div-00 {
+		width: auto;
+		position: relative;
+		height: auto;
+		margin: 17.5px 0 16.5px 27px;
+		font-size: 16px;
+		line-height: 16px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		color: rgb(140,140,140);
+		pointer-events: none;
+	}
+
+	#files #div-01-div-01-div-00-div-00:hover h3 {
+		color: rgb(0,0,0);
+	}
+
+	#files #div-01-div-01-div-00-div-00:hover path {
+		fill: rgb(25,25,25);
+	}
+
+	#files .div-00-div-01-div-00-div-00 {
+		height: auto;
+		position: relative;
+		margin: 30px;
+		background-color: white;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0 0 30px -10px rgba(0,0,0,0.1);
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		
+	#files .t-div-00-div-01-div-00-div-00 {
+		display: none;
+	}
+
+	#files .div-00-div-00-div-01-div-00-div-00 {
+		width: 100%;
+		position: relative;
+		padding-top: 80%;
+		margin: 0;
+		overflow: hidden;
+		background-color: rgb(237,235,240);
+		cursor: pointer;
+		pointer-events: all;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	
+	#files .div-00-div-00-div-01-div-00-div-00:hover {
+		background-color: rgb(45,40,60);
+	}
+	
+	#files .div-00-div-00-div-00-div-01-div-00-div-00 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-flow: column nowrap;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	#files .t-div-00-div-00-div-00-div-00-div-01-div-00-div-00 {
+		display: none;
+	}
+
+	#files .div-00-div-00-div-00-div-00-div-01-div-00-div-00 {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		display: flex;
+		flex-flow: column nowrap;
+		background-color: rgba(255,0,0,0.75);
+		flex-shrink: 0;
+		z-index: 10000;
+	}
+	
+	#files .div-00-div-00-div-00-div-00-div-01-div-00-div-00 h3 {
+		width: calc(100% - 40px);
+		margin: 10px 20px;
+		position: relative;
+		height: auto;
+		font-size: 16px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		color: rgba(255,255,255,0.85);
+		line-height: 24px;
+		text-align: center;
+	}
+	
+	#files .t-svg-00-div-00-div-00-div-00-div-01-div-00-div-00, #files .t-spn-00-div-00-div-00-div-00-div-01-div-00-div-00, #files .t-img-00-div-00-div-00-div-00-div-01-div-00-div-00 {
+		display: none;
+	}
+
+	#files .svg-00-div-00-div-00-div-00-div-01-div-00-div-00 {
+		width: 180px;
+		height: 180px;
+		position: relative;
+		margin: auto calc(50% - 90px);
+		flex-shrink: 0;
+		pointer-events: none;
+	}
+	
+	#files .img-00-div-00-div-00-div-00-div-01-div-00-div-00 {
+		width: auto;
+		max-width: calc(100% - 60px);
+		height: auto;
+		max-height: calc(100% - 50px);
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		overflow: hidden;
+		border-radius: 4px;
+		flex-shrink: 0;
+		flex-grow: 1;
+		pointer-events: none;
+	}
+
+	#files .spn-00-div-00-div-00-div-00-div-01-div-00-div-00 {
+		width: 220px;
+		height: 180px;
+		position: relative;
+		margin: auto calc(50% - 110px);
+		border-radius: 8px;
+		box-sizing: border-box;
+		padding: 50px 1px 60px 1px;
+		background-color: rgb(210,210,210);
+		color: rgb(160,160,160);
+		font-size: 70px;
+		line-height: 70px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		overflow: hidden;
+		flex-shrink: 0;
+		pointer-events: none;
+	}
+
+	#files .svg-00-div-00-div-00-div-00-div-01-div-00-div-00 path {
+		fill: rgb(171, 164, 232);
+		stroke: none;
+	}
+
+	#files .svg-00-div-00-div-00-div-00-div-01-div-00-div-00 rect {
+		fill: rgb(206, 183, 255);
+		stroke: none;
+	}
+	
+
+	#files .div-01-div-00-div-01-div-00-div-00 {
+		width: 100%;
+		height: auto;
+		position: relative;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		background-color: white;
+	}
+
+	#files .h3-00-div-01-div-00-div-01-div-00-div-00 {
+		width: calc(100% - 20px);
+		margin: 15px 10px 0 10px;
+		padding: 5px 0;
+		position: relative;
+		height: auto;
+		min-height: 16px;
+		line-height: 22px;
+		font-size: 16px;
+		font-weight: 600;
+		font-family: 'Lato', sans-serif;
+		color: rgb(60,60,60);
+		overflow: hidden;
+		text-align: center;
+		word-wrap: break-word;
+		-ms-word-break: break-all;
+		word-break: break-all;
+		word-break: break-word;
+	}
+
+	#files .btn-00-div-01-div-00-div-01-div-00-div-00 {
+		width: 40px;
+		position: relative;
+		border: none;
+		background: rgb(245,245,245);
+		height: 40px;
+		cursor: pointer;
+		padding: 0;
+		outline: none;
+		border-radius: 25px;
+		overflow: hidden;
+		margin: 20px 10px 30px 10px;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	#files .btn-00-div-01-div-00-div-01-div-00-div-00:hover {
+		background-color: rgb(90,0,255);
+	}
+
+	#files .svg-00-btn-00-div-01-div-00-div-01-div-00-div-00, #files .svg-01-btn-00-div-01-div-00-div-01-div-00-div-00 {
+		height: auto;
+		width: 20px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		pointer-events: none;
+	}
+
+	#files .svg-00-btn-00-div-01-div-00-div-01-div-00-div-00 path {
+		fill: rgb(50,50,50);
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	#files .btn-00-div-01-div-00-div-01-div-00-div-00:hover .svg-00-btn-00-div-01-div-00-div-01-div-00-div-00 path {
+		fill: rgb(255,255,255);
+	}
+	
+	#files .svg-01-btn-00-div-01-div-00-div-01-div-00-div-00 path {
+		stroke: rgb(50,50,50);
+		stroke-width: 0.85px;
+		fill: none;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	#files .btn-00-div-01-div-00-div-01-div-00-div-00:hover .svg-01-btn-00-div-01-div-00-div-01-div-00-div-00 path {
+		stroke: rgb(255,255,255);
+	}
+	
+	#files .btn-01-div-01-div-00-div-01-div-00-div-00 {
+		width: 200px;
+		position: relative;
+		border: none;
+		background-color: rgb(245,245,245);
+		height: 50px;
+		cursor: pointer;
+		outline: none;
+		border-radius: 25px;
+		overflow: hidden;
+		padding: 17px;
+		font-weight: 500;
+		text-align: center;
+		font-size: 16px;
+		line-height: 16px;
+		font-family: 'Lato', sans-serif;
+		color: rgb(30,30,30);
+		margin: 20px calc(50% - 100px) 0 calc(50% - 100px);
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	#files .btn-01-div-01-div-00-div-01-div-00-div-00:hover {
+		background-color: rgb(90,0,255);
+		color: white;
+	}
+	
+	#files .btn-02-div-01-div-00-div-01-div-00-div-00 {
+		width: auto;
+		min-width: 100px;
+		position: relative;
+		border: none;
+		background: none;
+		height: 18px;
+		padding: 2px 0;
+		cursor: pointer;
+		outline: none;
+		overflow: hidden;
+		text-align: center;
+		font-size: 14px;
+		line-height: 14px;
+		font-weight: 400;
+		font-family: 'Lato', sans-serif;
+		color: rgb(140,140,140);
+		margin: 8px auto 30px 50%;
+		transform: translate(-50%);
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	#files .btn-02-div-01-div-00-div-01-div-00-div-00:hover {
+		color: rgb(30,30,30);
+	}
+	
+	
+	
+	#files #div-02-div-00-div-00 {
+		width: 300px;
+		height: auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #img-00-div-02-div-00-div-00 {
+		width: 150px;
+		height: 150px;
+		position: relative;
+		margin: 50px 75px 0 75px;
+	}
+	
+	#files #lbl-00-div-02-div-00-div-00 {
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		position: relative;
+		font-size: 16px;
+		font-family: 'Lato', sans-serif;
+		line-height: 16px;
+		font-weight: 600px;
+		color: rgb(60,40,30);
+		text-align: center;
+		border: none;
+		outline: none;
+		margin: 20px 0 0 0
+	}
+	
+	
+	
+	#files #div-03-div-00-div-00 {
+		width: calc(100% - 80px);
+		padding: 60px 80px 10px 0;
+		height: auto;
+		position: relative;
+		margin: 60px 0 auto 0;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#files #div-01-div-00 {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100vw;
+		height: 100vh;
+		z-index: 100000;
+		background-color: rgba(0,0,0,0.6);
+	}
+	
+	#files #spn-00-div-01-div-00 {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100vw;
+		height: 100vh;
+		z-index: 100001;
+		background-color: rgba(0,0,0,0.3);
+	}
+	
+	#files #div-00-div-01-div-00 {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+		width: 350px;
+		height: auto;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #div-00-div-01-div-00 svg {
+		width: 70px;
+		height: 70px;
+		position: relative;
+		margin: 50px auto 0 calc(50% - 35px);
+	}
+	
+	#files #div-00-div-01-div-00 path {
+		fill: rgb(50,50,50);
+	}
+	
+	#files #div-00-div-01-div-00 label {
+		width: 250px;
+		height: auto;
+		position: relative;
+		margin: 30px auto 0 calc(50% - 125px);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: rgb(20,20,20);
+		text-align: center;
+	}
+	
+	#files #div-00-div-01-div-00 input {
+		width: 330px;
+		height: 50px;
+		position: relative;
+		margin: 30px auto 0 calc(50% - 165px);
+		border-radius: 25px;
+		padding: 17px;
+		color: rgb(20,20,20);
+		background-color: rgb(255,255,200);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+	}
+	
+	#files #btn-00-div-00-div-01-div-00 {
+		width: 330px;
+		height: 50px;
+		position: relative;
+		margin: 10px auto 0 calc(50% - 165px);
+		border-radius: 25px;
+		padding: 17px;
+		color: rgb(240,240,240);
+		background-color: rgb(90,0,255);
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+	}
+	
+	#files #btn-01-div-00-div-01-div-00 {
+		width: 150px;
+		height: 16px;
+		position: relative;
+		margin: 15px auto 40px calc(50% - 75px);
+		color: rgb(80,80,80);
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		outline: none;
+	}
+	
+	#files #btn-00-div-00-div-01-div-00:hover {
+		background-color: rgb(70,0,230);
+	}
+	
+	#files #btn-01-div-00-div-01-div-00:hover {
+		color: rgb(0,0,0);
+	}
+	
+	
+	
+	#files #div-01-div-01-div-00 {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+		width: 350px;
+		height: auto;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #lbl-00-div-01-div-01-div-00 {
+		width: 250px;
+		height: auto;
+		position: relative;
+		margin: 30px auto 0 calc(50% - 125px);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: rgb(20,20,20);
+		text-align: center;
+	}
+	
+	#files #btn-00-div-01-div-01-div-00 {
+		width: 330px;
+		height: 50px;
+		position: relative;
+		margin: 30px auto 0 calc(50% - 165px);
+		border-radius: 25px;
+		padding: 16px 17px 18px 17px;
+		color: rgb(80,80,80);
+		background-color: rgb(210,210,220);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	
+	#files #btn-00-div-01-div-01-div-00 svg {
+		width: 22px;
+		height: 22px;
+		margin: -2px 2px -4px auto;
+		position: relative;
+		z-index: 10000;
+		flex-shrink: 0;
+	}
+
+
+	#files #btn-00-div-01-div-01-div-00 path {
+		fill: rgb(100,100,100);
+		stroke: none;
+	}
+
+	#files #btn-00-div-01-div-01-div-00:hover path {
+		fill: black;
+	}
+	
+	#files #btn-00-div-01-div-01-div-00:hover {
+		color: black;
+	}
+	
+	#files #btn-00-div-01-div-01-div-00 input {
+		width: 100%;
+		height: 50px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		z-index: 10000;
+		cursor: pointer;
+	}
+	
+	
+	
+	#files #div-00-div-01-div-01-div-00 {
+		width: 330px;
+		height: 84px;
+		position: relative;
+		margin: 30px auto 0 calc(50% - 165px);
+	}
+	
+	#files #t-img-00-div-00-div-01-div-01-div-00, #files #t-spn-00-div-00-div-01-div-01-div-00 {
+		display: none;
+	}
+	
+	#files #img-00-div-00-div-01-div-01-div-00 {
+		width: 65px;
+		height: 40px;
+		top: 10px;
+		left: 10px;
+		position: absolute;
+		border-radius: 5px;
+		object-fit: cover;
+	}
+	
+	#files #spn-00-div-00-div-01-div-01-div-00 {
+		width: 65px;
+		height: 40px;
+		left: 10px;
+		top: 10px;
+		position: absolute;
+		border-radius: 5px;
+		box-sizing: border-box;
+		padding: 10px 3px;
+		background-color: rgb(210,210,210);
+		color: rgb(160,160,160);
+		font-size: 20px;
+		line-height: 20px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	#files #h3-00-div-00-div-01-div-01-div-00 {
+		width: calc(100% - 185px);
+		text-align: left;
+		height: 14px;
+		box-sizing: border-box;
+		cursor: text;
+		font-size: 14px;
+		line-height: 14px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: rgb(80,80,80);
+		position: absolute;
+		left: 85px;
+		top: 23px;
+		margin: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		outline: none;
+		pointer-events: none;
+	}
+
+	#files #div-00-div-00-div-01-div-01-div-00 {
+		width: calc(100% - 20px);
+		height: 12px;
+		position: absolute;
+		left: 10px;
+		top: 60px;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	#files #lbl-00-div-00-div-00-div-01-div-01-div-00 {
+		width: auto;
+		height: 12px;
+		position: relative;
+		font-size: 12px;
+		line-height: 12px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: rgb(130,130,130);
+		pointer-events: none;
+		margin: 0;
+	}
+
+	#files #lbl-01-div-00-div-00-div-01-div-01-div-00 {
+		width: auto;
+		height: 12px;
+		margin: 0 0 0 20px;
+		position: relative;
+		font-size: 12px;
+		line-height: 12px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: rgb(130,130,130);
+		pointer-events: none;
+	}
+	
+	#files #svg-00-div-00-div-01-div-01-div-00 {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 60px;
+		top: 15px;
+		transition: 0.5s;
+	}
+
+	#files #pth-00-svg-00-div-00-div-01-div-01-div-00 {
+		stroke: rgb(220,220,220);
+		stroke-width: 1px;
+		fill: none;
+	}
+	
+	#files #pth-01-svg-00-div-00-div-01-div-01-div-00 {
+		stroke: rgb(90,0,255);
+		stroke-width: 1px;
+		fill: none;
+	}
+	
+	#files #btn-00-div-00-div-01-div-01-div-00 {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		padding: none;
+		right: 20px;
+		top: 15px;
+		outline: none;
+		border: none;
+		background: none;
+	}
+	
+	#files #btn-00-div-00-div-01-div-01-div-00 svg {
+		width: 25px;
+		height: 25px;
+		top: 2.5px;
+		left: 2.5px;
+		position: absolute;
+		cursor: pointer;
+	}
+	
+	#files #btn-00-div-00-div-01-div-01-div-00 path {
+		fill: rgb(210,210,210);
+		stroke: none;
+	}
+	
+	#files #btn-00-div-00-div-01-div-01-div-00:hover path {
+		fill: rgb(110,110,110);
+	}
+	
+	
+	
+	
+	
+	
+	
+	#files #btn-01-div-01-div-01-div-00, #files #btn-02-div-01-div-01-div-00 {
+		width: 330px;
+		height: 50px;
+		position: relative;
+		margin: 10px auto 0 calc(50% - 165px);
+		border-radius: 25px;
+		padding: 17px;
+		color: rgb(240,240,240);
+		background-color: rgb(90,0,255);
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+	}
+	
+	#files #btn-01-div-01-div-01-div-00 {
+		background-color: rgb(170,170,170);
+		cursor: auto;
+	}
+	
+	#files #btn-03-div-01-div-01-div-00 {
+		width: 150px;
+		height: 16px;
+		position: relative;
+		margin: 15px auto 40px calc(50% - 75px);
+		color: rgb(80,80,80);
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		outline: none;
+	}
+	
+	#files #btn-02-div-01-div-01-div-00:hover {
+		background-color: rgb(70,0,230);
+	}
+	
+	#files #btn-03-div-01-div-01-div-00:hover {
+		color: rgb(0,0,0);
+	}
+	
+	
+	
+	
+	#files #div-02-div-01-div-00 {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+		width: 350px;
+		height: auto;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #div-02-div-01-div-00 svg {
+		width: 70px;
+		height: 70px;
+		position: relative;
+		margin: 50px auto 0 calc(50% - 35px);
+	}
+	
+	#files #div-02-div-01-div-00 path {
+		fill: rgb(50,50,50);
+	}
+	
+	#files #div-02-div-01-div-00 label {
+		width: 250px;
+		height: auto;
+		position: relative;
+		margin: 10px auto 0 calc(50% - 125px);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: rgb(20,20,20);
+		text-align: center;
+	}
+	
+	#files #btn-00-div-02-div-01-div-00 {
+		width: 200px;
+		height: 50px;
+		position: relative;
+		margin: 40px auto 0 calc(50% - 100px);
+		border-radius: 25px;
+		padding: 17px;
+		color: rgb(240,240,240);
+		background-color: rgb(90,0,255);
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+	}
+	
+	#files #btn-01-div-02-div-01-div-00 {
+		width: 150px;
+		height: 16px;
+		position: relative;
+		margin: 15px auto 40px calc(50% - 75px);
+		color: rgb(80,80,80);
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		outline: none;
+	}
+	
+	#files #btn-00-div-02-div-01-div-00:hover {
+		background-color: rgb(70,0,230);
+	}
+	
+	#files #btn-01-div-02-div-01-div-00:hover {
+		color: rgb(0,0,0);
+	}
+	
+	
+	#files #div-03-div-01-div-00 {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+		width: 350px;
+		height: auto;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #div-03-div-01-div-00 svg {
+		width: 70px;
+		height: 70px;
+		position: relative;
+		margin: 50px auto 0 calc(50% - 35px);
+	}
+	
+	#files #div-03-div-01-div-00 path {
+		fill: rgb(50,50,50);
+	}
+	
+	#files #div-03-div-01-div-00 label {
+		width: 250px;
+		height: auto;
+		position: relative;
+		margin: 10px auto 0 calc(50% - 125px);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: rgb(20,20,20);
+		text-align: center;
+	}
+	
+	#files #btn-00-div-03-div-01-div-00 {
+		width: 200px;
+		height: 50px;
+		position: relative;
+		margin: 40px auto 0 calc(50% - 100px);
+		border-radius: 25px;
+		padding: 17px;
+		color: rgb(240,240,240);
+		background-color: rgb(90,0,255);
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+	}
+	
+	#files #btn-01-div-03-div-01-div-00 {
+		width: 150px;
+		height: 16px;
+		position: relative;
+		margin: 15px auto 40px calc(50% - 75px);
+		color: rgb(80,80,80);
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		outline: none;
+	}
+	
+	#files #btn-00-div-03-div-01-div-00:hover {
+		background-color: rgb(70,0,230);
+	}
+	
+	#files #btn-01-div-03-div-01-div-00:hover {
+		color: rgb(0,0,0);
+	}
+	
+	
+	
+	#files #div-04-div-01-div-00 {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+		width: 350px;
+		height: auto;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	#files #div-04-div-01-div-00 svg {
+		width: 70px;
+		height: 70px;
+		position: relative;
+		margin: 50px auto 0 calc(50% - 35px);
+	}
+	
+	#files #div-04-div-01-div-00 path {
+		fill: rgb(255,50,50);
+	}
+	
+	#files #div-04-div-01-div-00 label {
+		width: 250px;
+		height: auto;
+		position: relative;
+		margin: 10px auto 0 calc(50% - 125px);
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: rgb(20,20,20);
+		text-align: center;
+	}
+	
+	#files #btn-00-div-04-div-01-div-00 {
+		width: 200px;
+		height: 50px;
+		position: relative;
+		margin: 40px auto 0 calc(50% - 100px);
+		border-radius: 25px;
+		padding: 17px;
+		color: rgb(240,240,240);
+		background-color: rgb(90,0,255);
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		box-sizing: border-box;
+		border: none;
+		outline: none;
+	}
+	
+	#files #btn-01-div-04-div-01-div-00 {
+		width: 150px;
+		height: 16px;
+		position: relative;
+		margin: 15px auto 40px calc(50% - 75px);
+		color: rgb(80,80,80);
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 500;
+		text-align: center;
+		outline: none;
+	}
+	
+	#files #btn-00-div-04-div-01-div-00:hover {
+		background-color: rgb(70,0,230);
+	}
+	
+	#files #btn-01-div-04-div-01-div-00:hover {
+		color: rgb(0,0,0);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#files #div-02-div-00 {
+		width: 500px;
+		height: auto;
+		display: flex;
+		flex-flow: column nowrap;
+		position: fixed;
+		top: 70px;
+		left: calc(50% - 250px);
+		border-radius: 10px;
+		background-color: rgba(220,30,30,0.9);
+		transition: 1s;
+		transform: translate(0, 0);
+		z-index: 10000005;
+	}
+
+	#files #div-02-div-00 svg {
+		width: 40px;
+		height: 40px;
+		left: 25px;
+		top: 50%;
+		transform: translate(0, -50%);
+		position: absolute;
+	}
+
+	#files #div-02-div-00 svg line, #files #div-02-div-00 svg path {
+		fill: none;
+		stroke: rgb(255,255,255);
+		stroke-width: 0.6px;
+		stroke-linecap: round;
+	}
+
+	#files #div-02-div-00 svg circle {
+		fill: rgb(255,255,255);
+		stroke: none;
+	}
+
+	#files #p-00-div-02-div-00 {
+		width: calc(100% - 105px);
+		height: auto;
+		position: relative;
+		margin: 40px auto 40px 85px;
+		top: 50%;
+		font-size: 16px;
+		line-height: 24px;
+		color: white;
+		font-weight: 500;
+		font-family: 'Lato', sans-serif;
+	}
+
+	#files #p-00-div-02-div-00 a {
+		text-decoration: underline;
+		color: white;
+	}
+	
+	#files #p-00-div-02-div-00 span {
+		display: inline-block;
+		line-height: 30px;
+		position: relative;
+		padding: 5px 0 10px 0;
+		font-size: 16px;
+		color: white;
+		font-weight: 500;
+		font-family: 'Lato', sans-serif;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:700px){
+	#files .div-00-div-01-div-00-div-00, #files .p-div-00-div-01-div-00-div-00 {
+		width: calc(100% - 60px);
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width:1000px){
+	#files .div-00-div-01-div-00-div-00, #files .p-div-00-div-01-div-00-div-00 {
+		width: calc(50% - 60px);
+	}
+}
+
+@media screen and (min-width:1001px) and (max-width:1300px){
+	#files .div-00-div-01-div-00-div-00, #files .p-div-00-div-01-div-00-div-00 {
+		width: calc(50% - 60px);
+	}
+}
+
+@media screen and (min-width:1301px) and (max-width: 1900px){
+	#files .div-00-div-01-div-00-div-00, #files .p-div-00-div-01-div-00-div-00 {
+		width: calc(33% - 60px);
+	}
+}
+
+@media screen and (min-width:1901px){
+	#files .div-00-div-01-div-00-div-00, #files .p-div-00-div-01-div-00-div-00 {
+		width: calc(25% - 60px);
+	}
+}

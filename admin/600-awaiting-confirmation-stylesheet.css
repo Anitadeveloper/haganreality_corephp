@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 600px) and (max-width: 1199px){
+
+	#awaiting-confirmation #div-00 {
+		min-height: 900px;
+		height: 100vh;
+	}
+
+	#awaiting-confirmation #svg-00, #awaiting-confirmation #svg-01 {
+		position: absolute;
+		width: 200px;
+		height: 200px;
+	}
+
+	#awaiting-confirmation #svg-00 {
+		right: 0;
+		top: 0;
+	}
+
+	#awaiting-confirmation #svg-01 {
+		left: 0;
+		bottom: 0;
+	}
+
+	#awaiting-confirmation #svg-00 path, #awaiting-confirmation #svg-01 path {
+		fill: rgb(247,247,255);
+		stroke: none;
+	}
+
+
+
+
+	#awaiting-confirmation #sec-00 {
+		width: 50%;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	#awaiting-confirmation #img-00-sec-00 {
+		width: 400px;
+		height: 400px;
+		position: relative;
+		margin: 0 calc(50% - 200px) 5px calc(50% - 200px);
+	}
+
+
+	#awaiting-confirmation #h3-00-sec-00 {
+		width: 600px;
+		text-align: center;
+		height: auto;
+		position: relative;
+		margin: 0 auto 0 50%;
+		transform: translate(-50%);
+		font-size: 60px;
+		line-height: 80px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		color: rgba(56,55,102,1.00);
+	}
+
+	#awaiting-confirmation #p-00-sec-00 {
+		width: 400px;
+		height: auto;
+		margin: 25px calc(50% - 200px) 0 calc(50% - 200px);
+		position: relative;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		font-family: 'Lato', sans-serif;
+		color: rgba(86,95,102,1);
+		text-align: center;
+	}
+
+	#awaiting-confirmation #a-00-sec-00 {
+		width: auto;
+		height: 16px;
+		margin: 10px auto auto auto;
+		position: relative;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 16px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+		color: rgba(55,0,255,1.00);
+		outline: none;
+		background: none;
+		cursor: pointer;
+		border: none;
+	}
+
+	#awaiting-confirmation #a-00-sec-00:hover {
+		text-decoration: underline;
+	}
+}

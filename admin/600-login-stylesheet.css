@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 600px) and (max-width: 1199px){
+
+	#login #div-00 {
+		min-height: 900px;
+		height: 100vh;
+	}
+
+	#login #svg-00, #login #svg-01 {
+		position: absolute;
+		width: 200px;
+		height: 200px;
+	}
+
+	#login #svg-00 {
+		right: 0;
+		top: 0;
+	}
+
+	#login #svg-01 {
+		left: 0;
+		bottom: 0;
+	}
+
+	#login #svg-00 path, #login #svg-01 path {
+		fill: rgb(247,247,255);
+		stroke: none;
+	}
+
+
+	#login #spn-00 {
+		width: 500px;
+		height: 100px;
+		position: fixed;
+		top: 20px;
+		left: calc(50% - 250px);
+		border-radius: 10px;
+		background-color: rgba(220,30,30,0.9);
+		transition: 1s;
+		opacity: 0;
+		transform: translate(0, -50px);
+	}
+
+	#login #spn-00 svg {
+		width: 40px;
+		height: 40px;
+		left: 25px;
+		top: 50%;
+		transform: translate(0, -50%);
+		position: absolute;
+	}
+
+	#login #spn-00 svg line, #login #spn-00 svg path {
+		fill: none;
+		stroke: rgb(255,255,255);
+		stroke-width: 0.6px;
+		stroke-linecap: round;
+	}
+
+	#login #spn-00 svg circle {
+		fill: rgb(255,255,255);
+		stroke: none;
+	}
+
+	#login #p-00-spn-00 {
+		width: calc(100% - 105px);
+		height: auto;
+		position: absolute;
+		left: 85px;
+		top: 50%;
+		transform: translate(0, -50%);
+		font-size: 16px;
+		line-height: 24px;
+		color: white;
+		font-weight: 400;
+		font-family: 'Lato', sans-serif;
+		margin: 0;
+	}
+
+	#login #p-00-spn-00 a {
+		text-decoration: underline;
+		color: white;
+	}
+	
+	#login #spn-01 {
+		width: 500px;
+		height: 100px;
+		position: fixed;
+		top: 20px;
+		left: calc(50% - 250px);
+		border-radius: 10px;
+		background-color: rgba(230,230,230,0.8);
+		transition: 1s;
+		opacity: 0;
+		transform: translate(0, -50px);
+	}
+
+	#login #spn-01 img {
+		width: 50px;
+		height: 50px;
+		left: 20px;
+		top: 50%;
+		transform: translate(0, -50%);
+		position: absolute;
+	}
+
+	#login #spn-01 p {
+		width: calc(100% - 105px);
+		height: auto;
+		position: absolute;
+		left: 85px;
+		top: 50%;
+		transform: translate(0, -50%);
+		font-size: 16px;
+		line-height: 24px;
+		color: rgb(100,100,100);
+		font-weight: 400;
+		font-family: 'Lato', sans-serif;
+		margin: 0;
+	}
+
+
+
+	#login #sec-00 {
+		width: 50%;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	
+	#login #h3-00-sec-00 {
+		width: auto;
+		text-align: center;
+		height: 60px;
+		position: relative;
+		margin: 0 auto;
+		font-size: 60px;
+		line-height: 60px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		color: rgba(56,55,102,1.00);
+	}
+
+	#login #p-00-sec-00 {
+		width: 500px;
+		height: auto;
+		margin: 30px auto 0 50%;
+		position: relative;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		font-family: 'Lato', sans-serif;
+		color: rgba(86,95,102,1);
+		text-align: center;
+		transform: translate(-50%, 0);
+	}
+
+	#login #p-00-sec-00 a {
+		color: rgba(55,0,255,1.00);
+	}
+
+	#login #p-00-sec-00 a:hover {
+		text-decoration: underline;
+	}
+
+	#login #div-00-sec-00, #login #div-01-sec-00 {
+		width: 400px;
+		height: 50px;
+		position: relative;
+		display: block;
+		margin: 60px auto 10px calc(50% - 200px);
+		border-radius: 25px;
+		background-color: rgb(230,230,230);
+	}
+
+	#login #div-01-sec-00 {
+		margin: 10px auto 10px calc(50% - 200px);
+	}
+
+	#login #ipt-00-div-00-sec-00, #login #ipt-00-div-01-sec-00 {
+		width: 100%;
+		height: 50px;
+		box-sizing: border-box;
+		position: relative;
+		padding: 16px 10px 18px 50px;
+		font-size: 16px;
+		line-height: 16px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: rgb(70,70,90);
+		border: none;
+		outline: none;
+		background: none;
+		border-radius: 25px;
+	}
+
+	#login #svg-00-div-00-sec-00, #login #svg-00-div-01-sec-00 {
+		width: 20px;
+		height: 20px;
+		left: 15px;
+		top: 15px;
+		position: absolute;
+		z-index: 10000;
+	}
+
+	#login #pth-00-svg-00-div-00-sec-00, #login #pth-01-svg-00-div-00-sec-00, #login #rct-00-svg-00-div-01-sec-00 {
+		fill: rgb(70,70,90);
+		stroke: none;
+	}
+
+	#login #pth-00-svg-00-div-01-sec-00 {
+		stroke: rgb(70,70,90);
+		stroke-width: 1.5px;
+		fill: none;
+	}
+
+	#login #btn-00-sec-00 {
+		width: 400px;
+		height: 50px;
+		position: relative;
+		margin: 30px auto 0 calc(50% - 200px);
+		background: linear-gradient(90deg, rgb(200,100,255) 0%, rgb(120,80,255) 100%);
+		border-radius: 25px;
+		border: none;
+		outline: none;
+		padding: 15px 10px 19px 10px;
+		font-size: 16px;
+		line-height: 16px;
+		font-family: 'Lato', sans-serif;
+		color: white;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	#login #btn-00-sec-00 svg {
+		width: 16px;
+		height: 16px;
+		position: relative;
+		margin: 2px 0 -2px 0;
+	}
+
+	#login #btn-00-sec-00 svg path {
+		stroke-width: 1.2px;
+		stroke: white;
+		fill: none;
+	}
+
+	#login #a-00-sec-00 {
+		width: auto;
+		height: 16px;
+		margin: 10px auto auto auto;
+		position: relative;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 16px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+		color: rgba(55,0,255,1.00);
+		outline: none;
+		background: none;
+		cursor: pointer;
+		border: none;
+	}
+
+	#login #a-00-sec-00:hover {
+		text-decoration: underline;
+	}
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:1000px){
+	
+	#login #sec-00 {
+		width: 500px;
+	}
+	
+}
+

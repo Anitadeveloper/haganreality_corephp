@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* ------------------------*/ /* ---------->>> emails-and-notifications-settings <<<-----------*/ /* ------------------------*/
+
+
+#emails-and-notifications-settings #asd-00-div-00 {
+	width: 250px;
+	height: calc(100% - 160px);
+	position: fixed;
+	background-color: rgb(255,255,255);
+	display: flex;
+	left: 0;
+	top: 150px;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 0 0 30px -10px rgba(0,0,0,0.1);
+	flex-flow: column nowrap;
+	overflow: hidden;
+}
+
+#emails-and-notifications-settings .div-00-asd-00-div-00 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 0;
+}
+
+#emails-and-notifications-settings .a-00-div-00-asd-00-div-00 {
+	width: 100%;
+	height: 57px;
+	box-sizing: border-box;
+	position: relative;
+	padding: 21px 10px 21px 10px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	line-height: 14px;
+	color: rgb(150,150,160);
+	cursor: pointer;
+	display: block;
+	border-bottom: 1px solid rgb(240,240,240);
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#emails-and-notifications-settings .a-00-div-00-asd-00-div-00:hover {
+	color: rgb(75,75,80);
+	background-color: rgb(250,250,250);
+}
+
+#emails-and-notifications-settings .lbl-00-a-00-div-00-asd-00-div-00 {
+	height: 28px;
+	box-sizing: border-box;
+	width: auto;
+	right: 10px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	border-radius: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	padding: 7px 8px 7px 8px;
+	background-color: rgb(220,220,220);
+	color: rgb(50,50,50);
+}
+
+#emails-and-notifications-settings #div-00-div-00 {
+	width: 1200px;
+	height: auto;
+	margin: 50px calc(50% - 700px) 0 calc(50% - 500px);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#emails-and-notifications-settings #div-00-div-00-div-00 {
+	width: 100%;
+	height: auto;
+	margin: 50px 0 0 0;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#emails-and-notifications-settings #h4-00-div-00-div-00-div-00 {
+	width: auto;
+	height: 30px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(70,70,70);
+	box-sizing: border-box;
+	margin: 120px 0 0 0;
+	position: relative;
+	flex-shrink: 0;
+}
+
+#emails-and-notifications-settings #div-00-div-00-div-00 span {
+	width: 150px;
+	height: auto;
+	margin: auto 0 0 0;
+	position: relative;
+	border-left: 1px solid rgb(220,220,220);
+	flex-shrink: 0;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#emails-and-notifications-settings #div-00-div-00-div-00 span:first-of-type {
+	margin-left: auto;
+}
+
+#emails-and-notifications-settings #div-00-div-00-div-00 span:last-of-type {
+	border-right: 1px solid rgb(220,220,220);
+	margin-right: 50px;
+}
+
+#emails-and-notifications-settings #div-00-div-00-div-00 label {
+	position: relative;
+	width: auto;
+	height: 14px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: rgb(120,120,120);
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: block;
+	transform: translate(0, -40px) rotate(-45deg);
+}
+
+
+#emails-and-notifications-settings #div-01-div-00-div-00 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 20px 0 auto 0;
+}
+
+#emails-and-notifications-settings .t-div-00-div-01-div-00-div-00 {
+	display: none;	
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00.dark {
+	background-color: rgb(240,240,240);
+	border-radius: 3px;
+}
+
+
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 h6 {
+	min-width: 150px;
+	max-width: calc(100% - 150px);
+	height: 36px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 10px;
+	color: rgb(120,120,120);
+	margin: auto 0;
+	font-weight: 400;
+	position: relative;
+	box-sizing: border-box;
+	outline: none;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 h6[contenteditable=true] {
+	background-color: rgb(255,255,200);
+	border-radius: 4px;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	margin: auto 63px;
+	box-sizing: border-box;
+	background: none;
+	flex-shrink: 0;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div input, #emails-and-notifications-settings .div-00-div-01-div-00-div-00 div span:nth-child(3) {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div input {
+	opacity: 0;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div span:nth-child(3) {
+	border: 2px solid rgb(150,150,150);
+	border-radius: 8px;
+	box-sizing: border-box;
+	pointer-events: none;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div:first-of-type {
+	margin-left: auto;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div:last-of-type {
+	margin-right: 50px;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div input:checked ~ span:nth-child(2) {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+	border-radius: 5px;
+	pointer-events: none;
+	background-color: rgb(90,0,255);
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 div input:checked ~ span:nth-child(3) {
+	border-color: rgb(90,0,255);
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 svg {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: 0px 10px;
+	flex-shrink: 0;
+	cursor: pointer;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 svg circle {
+	fill: rgb(120,120,120);
+	stroke: none;
+	transition: 0.3s;
+}
+
+#emails-and-notifications-settings .div-00-div-01-div-00-div-00 svg:hover circle {
+	fill: rgb(20,20,20);
+}
+
+
+#emails-and-notifications-settings #div-00-div-00::after {
+	content: '';
+	height: 200px;
+	position: relative;
+	width: 100%;
+}
+
+
+#emails-and-notifications-settings #btn-00-div-00-div-00 {
+	width: 150px;
+	height: 35px;
+	margin: 100px auto auto auto;
+	background-color: rgb(90,0,255);
+	color: white;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 500;
+	padding: 10.5px 10px;
+	border-radius: 8px;
+	border: none;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#emails-and-notifications-settings #btn-00-div-00-div-00:hover {
+	transform: scale(1.05);
+}
+
+

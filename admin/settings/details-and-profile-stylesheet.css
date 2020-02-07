@@ -1,0 +1,729 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* ------------------------*/ /* ---------->>> details-and-profile-settings <<<-----------*/ /* ------------------------*/
+
+
+#details-and-profile-settings #asd-00-div-00 {
+	width: 250px;
+	height: calc(100% - 160px);
+	position: fixed;
+	background-color: rgb(255,255,255);
+	display: flex;
+	left: 0;
+	top: 150px;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 0 0 30px -10px rgba(0,0,0,0.1);
+	flex-flow: column nowrap;
+	overflow: hidden;
+}
+
+#details-and-profile-settings .div-00-asd-00-div-00 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 0;
+}
+
+#details-and-profile-settings .a-00-div-00-asd-00-div-00 {
+	width: 100%;
+	height: 57px;
+	box-sizing: border-box;
+	position: relative;
+	padding: 21px 10px 21px 10px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	line-height: 14px;
+	color: rgb(150,150,160);
+	cursor: pointer;
+	display: block;
+	border-bottom: 1px solid rgb(240,240,240);
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#details-and-profile-settings .a-00-div-00-asd-00-div-00:hover {
+	color: rgb(75,75,80);
+	background-color: rgb(250,250,250);
+}
+
+#details-and-profile-settings .lbl-00-a-00-div-00-asd-00-div-00 {
+	height: 28px;
+	box-sizing: border-box;
+	width: auto;
+	right: 10px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	border-radius: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	padding: 7px 8px 7px 8px;
+	background-color: rgb(220,220,220);
+	color: rgb(50,50,50);
+}
+
+#details-and-profile-settings #div-00-div-00 {
+	width: 1350px;
+	height: auto;
+	margin: 50px calc(50% - 850px) 0 calc(50% - 500px);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#details-and-profile-settings #h4-00-div-00-div-00 {
+	width: 100%;
+	height: 18px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(70,70,70);
+	box-sizing: border-box;
+	margin: 120px 0 0 0;
+	position: relative;
+}
+
+#details-and-profile-settings .div-00-div-00-div-00 {
+	width: calc(50% - 100px);
+	height: auto;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 80px 100px 0 0;
+}
+
+#details-and-profile-settings .div-00-div-00-div-00 h5 {
+	position: relative;
+	width: 100%;
+	height: 31px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: rgb(160,160,160);
+	box-sizing: border-box;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(230,230,230);
+	margin: 0 0 10px 0;
+	font-weight: 400;
+}
+
+#details-and-profile-settings .div-00-div-00-div-00-div-00, #details-and-profile-settings .div-01-div-00-div-00-div-00 {
+	width: 100%;
+	height: 35px;
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0;
+}
+
+#details-and-profile-settings .div-00-div-00-div-00-div-00 h6, #details-and-profile-settings .div-01-div-00-div-00-div-00 div {
+	width: 100%;
+	height: auto;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: rgb(120,120,120);
+	margin: 8.5px 10px 8.5px 0;
+	position: relative;
+	flex-shrink: 1;
+	font-weight: 400;
+}
+
+#details-and-profile-settings .div-01-div-00-div-00-div-00 div {
+	border-radius: 8px;
+	height: 35px;
+	padding: 8.5px 5px;
+	margin: 0 10px 0 0;
+	box-sizing: border-box;
+	background-color: rgb(245,245,245);
+	outline: none;
+}
+
+#details-and-profile-settings .div-01-div-00-div-00-div-00 div * {
+	display: none;
+}
+
+#details-and-profile-settings .div-00-div-00-div-00-div-00 button, #details-and-profile-settings .div-01-div-00-div-00-div-00 button {
+	width: 120px;
+	position: relative;
+	height: 35px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 500;
+	padding: 10.5px 10px;
+	color: white;
+	border-radius: 8px;
+	background-color: rgb(90,0,255);
+	margin: auto 5px;
+	transition: 0.3s;
+	box-sizing: border-box;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+#details-and-profile-settings .div-00-div-00-div-00-div-00 button:hover, #details-and-profile-settings .div-01-div-00-div-00-div-00 button:hover {
+	transform: scale(1.05);
+}
+
+#details-and-profile-settings .div-01-div-00-div-00-div-00 button:nth-child(2){
+	background-color: rgb(240,240,240);
+	color: rgb(50,50,50);
+}
+
+
+
+
+
+#details-and-profile-settings #div-01-div-00 {
+	width: 1350px;
+	height: auto;
+	margin: 50px calc(50% - 850px) 0 calc(50% - 500px);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#details-and-profile-settings #h4-00-div-01-div-00 {
+	width: 100%;
+	height: 18px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(70,70,70);
+	box-sizing: border-box;
+	margin: 120px 0 0 0;
+	position: relative;
+}
+
+#details-and-profile-settings .div-00-div-01-div-00 {
+	width: calc(50% - 100px);
+	height: auto;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0 100px 0 0;
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 80px 0 60px 0;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00 h5 {
+	position: relative;
+	width: 100%;
+	height: 31px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: rgb(160,160,160);
+	box-sizing: border-box;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(230,230,230);
+	margin: 0 0 10px 0;
+	font-weight: 400;
+}
+
+#details-and-profile-settings .div-00-div-01-div-00-div-01-div-00 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	position: relative;
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00 {
+	width: 100%;
+	padding-top: 50%;
+	margin-bottom: 60px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	border-radius: 6px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00 span {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	pointer-events: none;
+	overflow: hidden;
+	background-color: rgb(45,40,60);
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00 img {
+	width: auto;
+	height: auto;
+	left: 0;
+	top: 0;
+	position: absolute;
+	transition: filter 0.3s;
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00 svg {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: calc(50% - 15px);
+	top: calc(50% - 15px);
+	z-index: 3;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00 path {
+	fill: rgb(255,255,255);
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 75px);
+	border-radius: 75px;
+	background-color: white;
+	z-index: 3;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00 span {
+	width: 135px;
+	height: 135px;
+	position: absolute;
+	left: 7.5px;
+	top: 7.5px;
+	border-radius: 67.5px;
+	z-index: 1;
+	pointer-events: none;
+	overflow: hidden;
+	background-color: rgb(45,40,60);
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00 img {
+	width: auto;
+	height: auto;
+	left: 0;
+	top: 0;
+	position: absolute;
+	transition: filter 0.3s;
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00 svg {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: calc(50% - 15px);
+	top: calc(50% - 15px);
+	z-index: 3;
+	cursor: pointer;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+#details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00 path {
+	fill: rgb(255,255,255);
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00 .svg-01-div-00-div-00-div-01-div-00-div-01-div-00, #details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00 .svg-01-div-01-div-00-div-01-div-00-div-01-div-00 {
+	opacity: 0.5;
+	filter: blur(5px);
+	z-index: 2;
+	pointer-events: none;
+}
+
+#details-and-profile-settings .svg-01-div-00-div-00-div-01-div-00-div-01-div-00 path, #details-and-profile-settings .svg-01-div-01-div-00-div-01-div-00-div-01-div-00 path {
+	fill: rgb(0,0,0);
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00:hover img, #details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00:hover img {
+	filter: brightness(0.9);
+}
+
+#details-and-profile-settings .div-00-div-00-div-01-div-00-div-01-div-00:hover svg, #details-and-profile-settings .div-01-div-00-div-01-div-00-div-01-div-00:hover svg {
+	transform: scale(1.05);
+}
+	
+
+
+#details-and-profile-settings #div-02-div-00 {
+	width: 1250px;
+	height: auto;
+	margin: 0 calc(50% - 750px) 100px calc(50% - 500px);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#details-and-profile-settings #div-02-div-00 button {
+	width: 150px;
+	height: 35px;
+	margin: 0 auto;
+	background-color: rgb(255,50,50);
+	color: white;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 500;
+	padding: 10.5px 10px;
+	border-radius: 8px;
+	border: none;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#details-and-profile-settings #div-02-div-00 button:hover {
+	transform: scale(1.05);
+}
+
+
+
+
+
+
+
+#details-and-profile-settings #spn-00-div-00 {
+	position: fixed;
+	height: 100%;
+	min-height: 800px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 100;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#details-and-profile-settings #div-00-spn-00-div-00, #details-and-profile-settings #div-01-spn-00-div-00, #details-and-profile-settings #div-02-spn-00-div-00, #details-and-profile-settings #div-03-spn-00-div-00 {
+	width: 400px;
+	height: auto;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 50px;
+	margin: auto calc(50% - 200px);
+	background-color: white;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00, #details-and-profile-settings #div-02-spn-00-div-00 {
+	width: 500px;
+	padding-top: 0px;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 hr, #details-and-profile-settings #div-02-spn-00-div-00 hr {
+	position: absolute;
+	height: 4px;
+	left: 0;
+	top: 0;
+	background-color: rgb(90,0,255);
+	outline: none;
+	transition: 0.5s;
+	border: none;
+	margin: 0;
+}
+
+#details-and-profile-settings #svg-00-div-00-spn-00-div-00, #details-and-profile-settings #svg-00-div-01-spn-00-div-00, #details-and-profile-settings #svg-00-div-02-spn-00-div-00 {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+}
+
+#details-and-profile-settings #svg-00-div-00-spn-00-div-00 path, #details-and-profile-settings #svg-00-div-01-spn-00-div-00 path, #details-and-profile-settings #svg-00-div-02-spn-00-div-00 path {
+	stroke-width: 1.5px;
+	fill: none;
+	stroke: rgb(50,50,50);
+}
+
+#details-and-profile-settings #div-00-spn-00-div-00 label {
+	width: calc(100% - 60px);
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 15px 30px 0 30px;
+	font-family: 'Open-Sans', sans-serif;
+	color: rgb(100,100,100);
+	position: relative;
+}
+
+#details-and-profile-settings #div-00-spn-00-div-00 label.errors {
+	margin-top: 5px;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: rgb(200,0,0);
+}
+
+#details-and-profile-settings #div-00-spn-00-div-00 input {
+	height: 40px;
+	width: calc(100% - 50px);
+	position: relative;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Open-Sans', sans-serif;
+	color: rgb(50,50,50);
+	margin: 5px 25px 0 25px;
+	background-color: rgb(245,245,245);
+	border-radius: 8px;
+	padding: 12px 8px;
+	border: none;
+	outline: none;
+}
+
+#details-and-profile-settings #btn-00-div-00-spn-00-div-00, #details-and-profile-settings #btn-01-div-01-spn-00-div-00, #details-and-profile-settings #btn-01-div-02-spn-00-div-00 {
+	height: 40px;
+	width: 120px;
+	position: relative;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Open-Sans', sans-serif;
+	color: rgb(255,255,255);
+	margin: 25px auto;
+	background-color: rgb(90,0,255);
+	border-radius: 8px;
+	padding: 13px 8px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+	outline: none;
+}
+
+#details-and-profile-settings #btn-00-div-00-spn-00-div-00:hover, #details-and-profile-settings #btn-01-div-01-spn-00-div-00:hover, #details-and-profile-settings #btn-01-div-02-spn-00-div-00:hover {
+	transform: scale(1.05);
+}
+
+
+
+
+#details-and-profile-settings #div-01-spn-00-div-00 div, #details-and-profile-settings #div-02-spn-00-div-00 div {
+	height: 220px;
+	width: 450px;
+	overflow: hidden;
+	position: relative;
+	margin: 30px 25px 0 25px;
+	background-color: rgb(220,220,220);
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 div img, #details-and-profile-settings #div-02-spn-00-div-00 div img {
+	width: auto;
+	height: auto;
+	cursor: move;
+	position: absolute;
+	z-index: 1;
+	border: none;
+	user-select: none;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 div svg, #details-and-profile-settings #div-02-spn-00-div-00 div svg {
+	width: auto;
+	height: auto;
+	position: relative;
+	pointer-events: none;
+	z-index: 2;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 div path, #details-and-profile-settings #div-02-spn-00-div-00 div path {
+	fill: rgba(0,0,0,0.4);
+	stroke: none;
+	fill-rule: evenodd;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 span, #details-and-profile-settings #div-02-spn-00-div-00 span {
+	width: auto;
+	height: 40px;
+	margin: 10px auto 0 25px;
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 span span, #details-and-profile-settings #div-02-spn-00-div-00 span span {
+	width: 120px;
+	height: 5px;
+	border-radius: 4px;
+	background-color: rgb(220,220,220);
+	border: 1px solid rgb(190,190,190);
+	box-sizing: border-box;
+	position: relative;
+	margin: 17.5px 15px;
+	z-index: 1;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 span button, #details-and-profile-settings #div-02-spn-00-div-00 span button {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 15px;
+	background-color: rgb(160,160,160);
+	border: 1px solid rgb(120,120,120);
+	transform: translate(-50%, -50%);
+	left: calc(50% - 60px);
+	top: 50%;
+	z-index: 2;
+	cursor: pointer;
+	outline: none;
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 span svg, #details-and-profile-settings #div-02-spn-00-div-00 span svg {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin: 10px 0;
+	transform: scale(1.2);
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 span svg:first-child {
+	transform: scale(0.8);
+}
+
+#details-and-profile-settings #div-01-spn-00-div-00 span path, #details-and-profile-settings #div-02-spn-00-div-00 span path {
+	stroke: none;
+	fill: rgb(100,100,100);
+}
+
+
+#details-and-profile-settings #btn-00-div-01-spn-00-div-00, #details-and-profile-settings #btn-00-div-02-spn-00-div-00 {
+	height: 40px;
+	width: auto;
+	position: relative;
+	box-sizing: border-box;
+	margin: 10px 25px 0 auto;
+	background-color: rgb(230,230,230);
+	border-radius: 8px;
+	padding: 0 15px;
+	border: none;
+	pointer-events: none;
+	transition: 0.3s;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#details-and-profile-settings #btn-00-div-01-spn-00-div-00:hover, #details-and-profile-settings #btn-00-div-02-spn-00-div-00:hover {
+	transform: scale(1.05);
+}
+
+#details-and-profile-settings #btn-00-div-01-spn-00-div-00 svg, #details-and-profile-settings #btn-00-div-02-spn-00-div-00 svg {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	margin: 12.5px 10px 12.5px auto;
+	pointer-events: none;
+}
+
+#details-and-profile-settings #btn-00-div-01-spn-00-div-00 svg path, #details-and-profile-settings #btn-00-div-02-spn-00-div-00 svg path {
+	fill: rgb(50,50,50);
+	stroke: none;
+}
+
+#details-and-profile-settings #btn-00-div-01-spn-00-div-00 label, #details-and-profile-settings #btn-00-div-02-spn-00-div-00 label {
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Open-Sans', sans-serif;
+	color: rgb(50,50,50);
+	height: 14px;
+	width: auto;
+	margin: 13px auto 13px 0;
+	position: relative;
+	pointer-events: none;
+}
+
+#details-and-profile-settings #btn-00-div-01-spn-00-div-00 input, #details-and-profile-settings #btn-00-div-02-spn-00-div-00 input {
+	pointer-events: auto;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 100px;
+}
+
+
+
+#details-and-profile-settings #btn-01-div-01-spn-00-div-00, #details-and-profile-settings #btn-02-div-01-spn-00-div-00, #details-and-profile-settings #btn-01-div-02-spn-00-div-00, #details-and-profile-settings #btn-02-div-02-spn-00-div-00, #details-and-profile-settings #btn-00-div-03-spn-00-div-00, #details-and-profile-settings #btn-01-div-03-spn-00-div-00 {
+	height: 40px;
+	width: 120px;
+	position: relative;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Open-Sans', sans-serif;
+	color: rgb(0,0,0);
+	margin: 25px 10px 30px auto;
+	background-color: rgb(230,230,230);
+	border-radius: 8px;
+	padding: 13px 8px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+	outline: none;
+}
+
+ #details-and-profile-settings #btn-02-div-01-spn-00-div-00, #details-and-profile-settings #btn-02-div-02-spn-00-div-00, #details-and-profile-settings #btn-01-div-03-spn-00-div-00 {
+	 margin: 25px auto 25px 10px;
+	 background-color: rgb(90,0,255);	
+	 color: rgb(255,255,255);
+}
+
+#details-and-profile-settings #btn-01-div-01-spn-00-div-00:hover, #details-and-profile-settings #btn-02-div-01-spn-00-div-00:hover, #details-and-profile-settings #btn-01-div-02-spn-00-div-00:hover, #details-and-profile-settings #btn-02-div-02-spn-00-div-00:hover, #details-and-profile-settings #btn-00-div-03-spn-00-div-00:hover, #details-and-profile-settings #btn-01-div-03-spn-00-div-00:hover {
+	transform: scale(1.05);
+}
+
+
+#details-and-profile-settings #div-03-spn-00-div-00 {
+	padding-top: 0;
+}
+
+#details-and-profile-settings #div-03-spn-00-div-00 h5 {
+	width: calc(100% - 40px);
+	height: auto;
+	position: relative;
+	margin: 60px 20px 15px 20px;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	font-family: 'Open-Sans', sans-serif;
+	color: rgb(50,50,50);
+}
+
+
+
